@@ -29,7 +29,10 @@ $(document).ready(function(){
             }
         },
         messages: {
-            nome: 'Por Favor, Insira Seu Nome'
+            nome: 'Por Favor, insira seu Nome',
+            email: 'Por Favor, insira seu E-mail',
+            telefone: 'Por Favor, insira seu Telefone',
+            mensagem: 'Por Favor, insira sua Mensagem'
         },
         submitHandler: function(form){
             console.log(form)
